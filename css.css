@@ -1,6 +1,53 @@
-.welcome {
-	font-weight: bold;
-	font-size: 24;
-	text-align: center;
-	color: teal;
+
+
+/* Variables */
+
+:root {
+	--my-text-color: #484747;
+	background: grey;
 }
+
+/* Shapes */
+.bg_square {
+	width: 480pt;
+	height: 1080pt;
+	background: white;
+	}
+
+
+/*Dictates responsive aspects of the website, as well as the sites overall font styling.*/
+
+.responsive {
+
+	margin: auto;
+	width: 50%;
+	font-family: Rubik, Arial, sans-serif
+	
+
+}
+
+/*Dictates the size and padding of the social media icons.*/
+
+.social_icon {
+	padding-right: 25pt;
+	max-height: 50pt;
+	max-width: 50t;
+}
+
+
+
+/* Headers/Paragraph stylings */
+
+h1 {
+	color: var(--my-text-color);
+}
+
+h2 {
+	color: var(--my-text-color);
+}
+
+p {
+	color: var(--my-text-color);
+}
+
+
