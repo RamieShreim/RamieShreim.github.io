@@ -4,25 +4,38 @@
 
 :root {
 	--my-text-color: #484747;
-	background: grey;
+	background: #484747;
 }
 
 /* Shapes */
+
 .bg_square {
-	width: 480pt;
-	height: 1080pt;
+	width: 1200px;
+	height: 1200px;
 	background: white;
+	float:left;
+	margin: 0 -70pt;
 	}
 
 
-/*Dictates responsive aspects of the website, as well as the sites overall font styling.*/
+/* profile image size limit/float */
+
+.size_limit {
+
+	padding-right: 30pt;
+	max-width: 300pt;
+	max-height: 500pt;
+	float: left;
+}
+
+
+	/*Dictates responsive aspects of the website, as well as the sites overall font styling.*/
 
 .responsive {
 
 	margin: auto;
 	width: 50%;
-	font-family: Rubik, Arial, sans-serif
-	
+	font-family: Rubik, Arial, sans-serif	
 
 }
 
@@ -40,14 +53,29 @@
 
 h1 {
 	color: var(--my-text-color);
+	padding-left: 30pt;
+	padding-right: 0pt;
 }
 
 h2 {
 	color: var(--my-text-color);
+	padding-left:360pt;
 }
 
 p {
 	color: var(--my-text-color);
+	padding-left:360pt;
+	padding-right:50pt;
 }
 
+ul {
+	color: var(--my-text-color);
+	padding-left:360pt;
+}
+
+/* places lists inside correctly */
+
+.list_pos {
+	list-style-position: inside;
+}
 
