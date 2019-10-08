@@ -1,20 +1,23 @@
 
 
-/* Variables */
-
-:root {
-	--my-text-color: #484747;
-	background: #484747;
-}
 
 /* Shapes */
 
+body {
+	
+	background-color: #484747;
+	font-family: Rubik, Arial, sans-serif	
+
+
+}
+
 .bg_square {
-	width: 1200px;
-	height: 1200px;
-	background: white;
-	float:left;
-	margin: 0 -70pt;
+/* This is responsive!!!*/
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+	background-color: white;
+	height: 100%;
 	}
 
 
@@ -31,13 +34,6 @@
 
 	/*Dictates responsive aspects of the website, as well as the sites overall font styling.*/
 
-.responsive {
-
-	margin: auto;
-	width: 50%;
-	font-family: Rubik, Arial, sans-serif	
-
-}
 
 /*Dictates the size and padding of the social media icons.*/
 
