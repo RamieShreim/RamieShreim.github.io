@@ -25,6 +25,7 @@ body {
 
 .size_limit {
 
+	vertical-align: top;
 	padding: 30px;
 	max-width: 100%;
 	height: auto;
@@ -41,6 +42,8 @@ body {
 
 .social_icon {
 	padding-right: 25pt;
+	min-width: 25pt;
+	min-height: 25pt;
 	max-height: 50pt;
 	max-width: 50t;
 }
