@@ -17,7 +17,7 @@ body {
 	width: 100%;
 	max-width: 960px;
 	background-color: white;
-	height: 100%;
+	min-height: 900px;
 	}
 
 
@@ -25,9 +25,11 @@ body {
 
 .size_limit {
 
-	padding-right: 30pt;
-	max-width: 300pt;
-	max-height: 500pt;
+	padding: 30px;
+	max-width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 600px;
 	float: left;
 }
 
@@ -48,25 +50,26 @@ body {
 /* Headers/Paragraph stylings */
 
 h1 {
-	color: var(--my-text-color);
+	
+	text-align: left;
 	padding-left: 30pt;
 	padding-right: 0pt;
 }
 
 h2 {
-	color: var(--my-text-color);
-	padding-left:360pt;
+	text-align:left;
+	padding-left:30pt;
 }
 
 p {
-	color: var(--my-text-color);
-	padding-left:360pt;
+	text-align:left;
+	padding-left:30pt;
 	padding-right:50pt;
 }
 
 ul {
-	color: var(--my-text-color);
-	padding-left:360pt;
+	
+	padding-left:30pt;
 }
 
 /* places lists inside correctly */
@@ -75,3 +78,12 @@ ul {
 	list-style-position: inside;
 }
 
+/* Page elements */
+
+header {
+	padding: 25px;
+}
+
+section {
+	padding: 25px;
+}
