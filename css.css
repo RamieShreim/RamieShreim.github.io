@@ -4,19 +4,20 @@
 /* Shapes */
 
 body {
-	
 	background-color: #484747;
-	font-family: 'Oswald', sans-serif;
-	
-
+	font-family: 'Chelsea Market', sans-serif;
+	background-image: url(images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.bg_square {
 
+
+.bg_square {
 	display: flex;
 	margin: 0px auto;
 	width: 100%;
-	max-width: 1650px;
+	max-width: 1500px;
 	background-color: black;
 	min-height: 900px;
 	align-items: flex-start;
@@ -28,7 +29,7 @@ body {
 	background-color: black;
 	width: 100%;
 	min-height: 900px;
-	max-width: 500px;
+	max-width: 450px;
 	flex-direction: column;
 	
 }
@@ -39,6 +40,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 900px;
+	max-width: 1200px;;
 	justify-content: flex-end;
 	text-align: center;
 }
@@ -88,7 +90,7 @@ body {
 
 .bio_text {
 	font-size: 18px;
-	padding: 0px 150px 100px;
+	padding: 0px 130px 30px;
 	color: #484747;
 }
 
@@ -97,12 +99,12 @@ body {
 }
  
 .bio_text h2 {
-	 padding: 16px;
+	 padding: 8px;
  }
 
 
 .sidebar_text {
-	padding: 35px;
+	padding: 25px;
 	color: white;
 	font-style: italic;
 	font-size: 20px;
@@ -112,13 +114,14 @@ body {
 /* profile image size limit/float */
 
 .portrait {
-
-	margin: 35px auto;
-	padding-bottom: 25px;
-	width: 100%;
+	opacity: 100;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-bottom: 5px;
+	width: 80%;
 	height: auto;
-	max-width: 325px;
-	float: left;
+	max-width: 350px;
+	
 }
 
 
