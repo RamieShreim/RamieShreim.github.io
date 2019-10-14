@@ -6,8 +6,8 @@
 body {
 	
 	background-color: #484747;
-	font-family: 'Grenze', serif;
-	color: #484747;
+	font-family: 'Oswald', sans-serif;
+	
 
 }
 
@@ -63,13 +63,18 @@ body {
 	flex-direction: column;
 	justify-content: flex-start;
 	min-height: 700px;
-	align-items: center;
+	text-align: left;
 	
 	
 }
 
 
 /* text properties */
+
+li {
+	text-align: left;
+	list-style-position: inside;
+}
 
 .footer_text {
 
@@ -86,8 +91,15 @@ body {
 }
 
 .bio_text {
+	font-size: 18px;
 	padding: 25px;
 }
+ 
+.bio_text h2 {
+	 text-align: center;
+	 padding: 16px;
+ }
+
 
 .sidebar_text {
 	padding: 35px;
@@ -101,7 +113,6 @@ body {
 
 .portrait {
 
-	vertical-align: top;
 	margin: 35px auto;
 	padding-bottom: 25px;
 	width: 100%;
@@ -115,9 +126,10 @@ body {
 /*Dictates the size and padding of the social media icons.*/
 
 .social_icon {
-	float: right;
-	padding-left: 5pt;
-	padding-right: 5pt;
+	
+	vertical-align: middle;
+	padding-left: 3px;
+	padding-right: 3px;
 	max-height: 20pt;
 	max-width: 20pt;
 }
