@@ -34,7 +34,7 @@ body {
 	
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 1080px)
 {
 	.side_rect {
 		display: none;
