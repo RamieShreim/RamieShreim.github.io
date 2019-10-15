@@ -34,6 +34,13 @@ body {
 	
 }
 
+@media only screen and (max-width: 600px)
+{
+	.side_rect {
+		display: none;
+	}
+}
+
 
 .bio_footer_container {
 	background-color: white;
