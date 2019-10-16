@@ -34,14 +34,6 @@ body {
 	
 }
 
-@media only screen and (max-width: 1080px)
-{
-	.side_rect {
-		display: none;
-	}
-}
-
-
 .bio_footer_container {
 	background-color: white;
 	display: flex;
@@ -142,4 +134,19 @@ body {
 	padding-right: 3px;
 	max-height: 30px;
 	max-width: 30px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1080px)
+{
+	.side_rect {
+		display: none;
+	}
+
+	.social_icon {
+		max-height: 50px;
+		max-width: 50px;
+		margin-top: 15px;
+	}
 }
