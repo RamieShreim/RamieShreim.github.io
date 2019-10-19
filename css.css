@@ -149,4 +149,7 @@ body {
 		max-width: 50px;
 		margin-top: 15px;
 	}
+	.footer_text {
+		font-size: 18px;
+	}
 }
