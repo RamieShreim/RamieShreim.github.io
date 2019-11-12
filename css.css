@@ -81,8 +81,9 @@ a {text-decoration:none;}
 	flex-direction: column;
 	background-image: url(images/header.png);
 	min-width: 100%;
-	min-height: 400px;
-	background-size: 100%;
+	min-height: 250px;
+	margin-top: 15px;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	color: black;
 	align-self: flex-start;
@@ -268,18 +269,19 @@ a {text-decoration:none;}
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 20px;
-	margin-bottom: 10px;
+	margin-bottom: auto;
+	margin-top: auto;
 }
 
 .hero_text h1 {
 	font-size: 70px;
-	margin-bottom: 0px;
+	margin-top: 20px;
 }
 
-
-.hero_text p {
-	opacity: .9;
+.hero_text h3 {
+	margin-top: -60px;
 }
+
 
 
 /*//////////// media query ///////////*/
